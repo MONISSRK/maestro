@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+torch
+pretty_midi
+pyFluidSynth
+numpy
+scipy
+tqdm

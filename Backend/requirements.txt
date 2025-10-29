@@ -1,8 +1,9 @@
-fastapi
-uvicorn
 torch
+torchvision
+torchaudio
+numpy
 pretty_midi
 pyFluidSynth
-numpy
+flask
 scipy
 tqdm

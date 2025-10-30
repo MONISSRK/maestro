@@ -8,8 +8,8 @@ import torch.nn.functional as F
 from fastapi.responses import FileResponse
 
 # --- CONFIG ---
-MODEL_PATH = "models/music_rnn_epoch_20.pth"
-SOUNDFONT_PATH = "soundfonts/GeneralUser-GS.sf2"
+MODEL_PATH = "music_rnn_epoch_20.pth"
+SOUNDFONT_PATH = "GeneralUser-GS.sf2"
 PROCESSED_DATA_DIR = "data/processed"
 OUTPUT_DIR = "output"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
